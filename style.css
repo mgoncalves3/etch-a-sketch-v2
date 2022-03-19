@@ -10,16 +10,15 @@
 	flex-wrap: wrap;
 	align-items: center;
 	align-content: center;
-	background-color: white;
-	align-items: center;
-
+	background-color: #ddd;
 }
 
 .cell {
+	box-sizing: border-box;
 	width: 156px;
 	height: 156px;
 	background-color: white;
 	border: solid 1px #aaa;
-	margin: 1px;
+	margin: 0px;
 	flex: 1 0 1;
 }
