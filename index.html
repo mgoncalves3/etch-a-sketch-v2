@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Odin Project // Etch a Sketch</title>
-  </head>
 
-  <body>
-    <div class="title">
-      <p>The Odin Project</p>
-      <h1>Etch-a-Sketch</h1>
-    </div>
-    <div class="options">
-      <button type="button" id="gridBtn">Change grid size</button>
-      <div class="sqr-color">
-        <input type="radio" name="sketch-color" id="default-color-btn" checked>Black</input>
-        <input type="radio" name="sketch-color" id="random-color-btn">I'm feeling lucky
-      </div>
-    </div>
-    <div class="flex-wrapper" id="wrapper-grid"></div>
-    <script src="script.js"></script>
-  </body>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Odin Project // Etch a Sketch</title>
+</head>
+
+<body>
+	<div class="title">
+		<p>The Odin Project</p>
+		<h1>Etch-a-Sketch</h1>
+	</div>
+	<div class="options">
+		<button type="button" id="gridBtn">Change grid size</button>
+		<button type="button" id="clearBtn">Clear</button>
+		<div class="sqr-color">
+			<input type="radio" name="sketch-color" id="default-color-btn" value="black" checked>Black</input>
+			<input type="radio" name="sketch-color" id="random-color-btn" value="random">I'm feeling lucky
+		</div>
+	</div>
+	<div class="container">
+		<div class="flex-wrapper" id="wrapper-grid"></div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
 </html>

@@ -1,6 +1,6 @@
 * {
   background-color: #fdfffc;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .title {
@@ -9,14 +9,15 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  
   padding-top: 100px;
 }
+
 .title > h1 {
   font-weight: bold;
   font-size: 3rem;
   margin: 2vh;
 }
+
 .title > p {
   font-size: 1rem;
 }
@@ -29,6 +30,14 @@
 
 button {
   padding: 8px;
+  margin: 0 25px;
+}
+
+.container {
+  border: solid 1px #aaa;
+  height: fit-content;
+  width: fit-content;
+  margin: 100px auto;
 }
 
 .sqr-color {
@@ -36,7 +45,6 @@ button {
 }
 
 .flex-wrapper {
-  margin: 100px auto;
   display: flex;
   height: 640px;
   width: 640px;
